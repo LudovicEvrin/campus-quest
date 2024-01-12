@@ -1,0 +1,26 @@
+{
+    "id": "cq",
+    "name": "Campus Quest!",
+    "short_name": "CQ",
+    "icons": [
+      {
+        "src": "./kerb.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait",
+    "screenshots": [
+        {
+            "src": "./kerb.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ]  
+  }
