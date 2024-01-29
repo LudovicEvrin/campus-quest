@@ -1,5 +1,4 @@
 "use client";
-import React, { usehistory } from 'react';
 import {QrScanner} from '@yudiel/react-qr-scanner';
 
 const Page = () => {
