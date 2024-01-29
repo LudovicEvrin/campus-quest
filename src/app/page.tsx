@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import React from 'react';
+import Page from './qrcode/page';
 
 export default function Home() {
   return (
@@ -38,6 +40,9 @@ export default function Home() {
           priority
         />
       </div>
+
+      <Page></Page>
+
 
       <input accept="image/*" id="icon-button-file" type="file" capture="environment"/>
 
