@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react';
-import Page from './qrcode/page';
+import Page from './scan/page';
 
 export default function Home() {
   return (
