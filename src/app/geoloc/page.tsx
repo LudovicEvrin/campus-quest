@@ -15,10 +15,7 @@ const Geoloc = () => {
             suppressLocationOnMount: false,
             isOptimisticGeolocationEnabled: true,
         });
-        
-        if (!isGeolocationEnabled){
-            return <div>Geolocation is not enabled</div>
-        } else if (coords && coords.latitude > 49.1900000 && coords.latitude < 49.2000000 && coords.longitude > -0.3600000 && coords.longitude < -0.3500000){
+    if (coords){
             return <div>GG : {coords.latitude} {coords.longitude}</div> ;
         } else {
             return <div>oups</div>
