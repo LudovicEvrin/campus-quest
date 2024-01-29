@@ -1,12 +1,11 @@
 "use client";
-import React from 'react';
+import React, { usehistory } from 'react';
 import {QrScanner} from '@yudiel/react-qr-scanner';
 
 const Page = () => {
     return (
         <QrScanner
-            onDecode={(result) => window.alert("yahou")}
-            onResult={(result) => window.alert("wahou")}
+            onDecode={(result) =>  window.location.href = result}
             onError={(error) => window.alert("oupsi")}
         />
     );
