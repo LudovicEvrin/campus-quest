@@ -32,7 +32,7 @@ const Demo = () => {
 
     if(!isGeolocationEnabled){
  
-         return (<div>Geolocation n'est pas activée </div>)
+         return (<div>Y a pas de géolocalisation activée</div>)
         
     }else if (isWithin20MetersResult){
         return (
@@ -42,7 +42,7 @@ const Demo = () => {
             />
         ); 
     }else {
-        return (<div> tu dois être à l'école !</div>)
+        return (<div>Tu es trop loin de MDS !</div>)
     }
 };
 
