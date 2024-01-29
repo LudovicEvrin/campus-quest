@@ -41,10 +41,10 @@ export default function Home() {
         />
       </div>
 
-      <Page></Page>
-
 
       <input accept="image/*" id="icon-button-file" type="file" capture="environment"/>
+
+      
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
