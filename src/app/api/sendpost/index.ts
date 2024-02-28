@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+/*import { NextApiRequest, NextApiResponse } from 'next';
 import conn from './../../api/db';
 
 // Vous pouvez définir un type pour le corps de la requête si vous connaissez sa structure
@@ -24,4 +24,4 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         // Envoyer une réponse HTTP en cas d'erreur
         res.status(500).json({ message: 'Internal server error', error: error.message });
     }
-};
+};*/
